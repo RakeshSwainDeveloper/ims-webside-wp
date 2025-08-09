@@ -24,7 +24,7 @@
       <nav class="nav" aria-label="Primary Navigation">
         <?php
           wp_nav_menu(array(
-            'theme_location' => 'primary',
+            'theme_location' => 'imsmenu',
             'menu_class'     => 'nav-links',
             'container'      => false
           ));
