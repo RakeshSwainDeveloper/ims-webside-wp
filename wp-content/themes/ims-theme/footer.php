@@ -1,4 +1,3 @@
-<!-- footer.php -->
 <footer class="site-footer">
   <div class="footer-top">
     <div class="footer-message">
@@ -17,31 +16,36 @@
       </div>
     </div>
   </div>
+  
 
   <div class="footer-links">
     <div>
       <h4>Quick Links</h4>
-      <?php wp_nav_menu(array(
-        'theme_location' => 'footer-quick',
-        'container' => false,
-        'menu_class' => ''
-      )); ?>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
     <div>
       <h4>Services</h4>
-      <?php wp_nav_menu(array(
-        'theme_location' => 'footer-services',
-        'container' => false,
-        'menu_class' => ''
-      )); ?>
+      <ul>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Exhibitions</a></li>
+        <li><a href="#">Upcoming Events</a></li>
+        <li><a href="#">Rental and Sales</a></li>
+      </ul>
     </div>
     <div>
       <h4>Follow Us</h4>
-      <?php wp_nav_menu(array(
-        'theme_location' => 'footer-social',
-        'container' => false,
-        'menu_class' => ''
-      )); ?>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
     </div>
     <div class="footer-logo">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logo-footer.png" alt="IMS Logo" />
@@ -50,10 +54,6 @@
   </div>
 
   <div class="footer-bottom">
-    <p>Copyright © <?php echo date('Y'); ?> IMS Intelligent Marketing Solutions</p>
+    <p>Copyright © 2025 IMS Intelligent Marketing Solutions</p>
   </div>
 </footer>
-
-<?php wp_footer(); ?>
-</body>
-</html>

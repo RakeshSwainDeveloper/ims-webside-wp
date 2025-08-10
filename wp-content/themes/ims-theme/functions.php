@@ -24,3 +24,4 @@ function ims_enqueue_assets() {
   wp_enqueue_script('include-js', get_template_directory_uri() . '/js/include.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'ims_enqueue_assets');
+ 
