@@ -79,8 +79,8 @@
               <li><a href="/ai-powered-event-chatbot">AI-Powered Event Chatbot</a></li>
               <li><a href="/registration-ticketing-software">Registration & Ticketing Software</a></li>
               <li><a href="/audience-engagement-solutions">Audience Engagement Solutions</a></li>
-              <li><a href="smart-networking.html">Smart Networking & Matchmaking</a></li>
-              <li><a href="photo-gallery.html">Photo Gallery & Cloud Sharing</a></li>
+              <li><a href="/smart-networking-and-matchmaking-page">Smart Networking & Matchmaking</a></li>
+              <li><a href="/photo-gallery">Photo Gallery & Cloud Sharing</a></li>
             </ul>
           </li>
 

@@ -21,7 +21,7 @@ Template Name: Smart Networking & Matchmaking Page
   <?php get_header(); ?>
     <!-- Hero Section -->
     <section class="hero-section">
-        <img src="images/waiters.jpg" alt="social media Banner" class="hero-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="smart network and matchmaking" class="hero-image">
         <div class="hero-overlay">
             <h1>Smart Networking & Matchmaking</h1>
         </div>
