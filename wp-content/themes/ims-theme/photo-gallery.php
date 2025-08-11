@@ -19,7 +19,58 @@ Template Name: Smart Networking & Matchmaking Page
 <body>
 
   <?php get_header(); ?>
-    
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="photo gallery" class="hero-image">
+        <h1 class="hero-text">Events</h1>
+    </section>
+
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">Gallery</span>
+    </div>
+    <hr />
+
+    <section class="intro-section">
+        <div class="left">
+            <h2><span class="red-text">Seamless Events,</span><br>Exceptional Experiences</h2>
+        </div>
+        <div class="right">
+            <p>
+                Our Photo Gallery & Cloud Sharing service offers a seamless way to collect, store, and share your
+                event’s most memorable moments. Whether it's a corporate event, exhibition, or private celebration, we
+                ensure every captured moment is easily accessible to your guests.
+            </p>
+        </div>
+    </section>
+
+
+    <div class="event-gallery">
+        <!-- Top-left LARGE image (2x2) -->
+        <div class="gallery-item large top-left">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="Large 1">
+            <div class="overlay">
+                <p>TechX 2024 – Product Launch Pavilion</p>
+                <span class="icon-arrow">➜</span>
+            </div>
+        </div>
+
+        <!-- Small images -->
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="img2"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="img3"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="img4"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="img5"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="img6"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="img7"></div>
+
+        <!-- Bottom-right LARGE image (2x2) -->
+        <div class="gallery-item large bottom-right">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="Large 2">
+        </div>
+
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="img8"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-9.jpg" alt="img9"></div>
+    </div>
 
 
   <!-- Footer include -->

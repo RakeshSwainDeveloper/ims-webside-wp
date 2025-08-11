@@ -67,7 +67,7 @@ Template Name: Smart Networking & Matchmaking Page
 
 
     <section class="cta">
-        <img src="images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>

@@ -212,12 +212,12 @@
         </div>
       </div>
       <div class="partners-logos">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/car-rental.png" alt="Car Rental" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/real-estate.png" alt="Real Estate" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/envato.png" alt="Envato" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/green-world.png" alt="Green World Technology" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/mountaintrip.png" alt="Mountaintrip" />
-        <img src="<?php echo get_template_directory_uri(); ?>/images/partners/law-bureau.png" alt="Law Bureau" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/car-rental.jpg" alt="Car Rental" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/real-estate.jpg" alt="Real Estate" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/envato.jpg" alt="Envato" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/green-world.jpg" alt="Green World Technology" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/mountain.jpg" alt="Mountaintrip" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/law.jpg" alt="Law Bureau" />
       </div>
     </div>
   </section>
