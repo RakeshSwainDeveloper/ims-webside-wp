@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #111;
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 
@@ -590,6 +590,18 @@ hr {
 .blog-card .read-more:hover {
   background-color: #b62328;
 }
+
+.solutions-block h3 a {
+  all: unset;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: inherit;
+}
+.solutions-block h3 a:hover {
+  text-decoration: underline;
+}
+
 
 /* Mobile Styling */
 @media (max-width: 768px) {

@@ -205,3 +205,29 @@
     justify-content: center;
     flex-shrink: 0;
 }
+/* submit button functionality */
+.submit-success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4BB543;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  z-index: 9999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  animation: fadeOut 4s forwards;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.submit-success-message i {
+  margin-right: 8px;
+}
+
+/* Auto-hide after 4 seconds */
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}

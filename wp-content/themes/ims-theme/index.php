@@ -120,12 +120,12 @@
 
     <div class="event-cards">
       <div class="event-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024 – Product Launch Pavilion" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/index1.jpg" alt="TechX 2024 – Product Launch Pavilion" />
         <h3>TechX 2024 – Product Launch Pavilion</h3>
         <a href="#">View More ↗</a>
       </div>
       <div class="event-card">
-        <span class="dot-center"></span>
+        <!-- <span class="dot-center"></span> -->
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Global Sustainability Forum – Experience Zone" />
         <h3>Global Sustainability Forum – Experience Zone</h3>
         <a href="#">View More ↗</a>
@@ -163,16 +163,16 @@
         </p>
 
         <div class="solutions-block">
-          <h3>Events</h3>
+          <h3><a href="/events">Events</a></h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a
             galley.</p>
         </div>
 
         <div class="solutions-block with-icon">
-          <h3>Exhibitions</h3>
+          <h3><a href="/exhibitions">Exhibitions</a></h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a
             galley.</p>
-          <div class="red-arrow-icon">↗</div>
+          <!-- <div class="red-arrow-icon">↗</div> -->
         </div>
 
         <div class="solutions-block">
@@ -182,7 +182,7 @@
         </div>
 
         <div class="solutions-block">
-          <h3>Rental and Sales</h3>
+          <h3><a href="/rental-sales">Rental and Sales</a></h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a
             galley.</p>
         </div>

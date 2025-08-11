@@ -7,20 +7,20 @@ Template Name: About Us Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
 
-   <section class="hero-section">
+    <section class="hero-section">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="About Us Banner" class="hero-image">
         <div class="hero-overlay">
             <h1>About Us</h1>
@@ -30,12 +30,18 @@ Template Name: About Us Page
     <!-- Company Info Section -->
 
     <section class="company-info">
-        <div class="section-heading">
+        <!-- <div class="section-heading">
             <span class="dot"></span>
             <span class="label">About</span>
             <hr />
+        </div> -->
+        <div class="section-heading">
+            <div class="dot-label">
+                <span class="dot"></span>
+                <span class="label">About</span>
+            </div>
+            <hr />
         </div>
-
         <div class="container">
             <div class="info-grid">
                 <div class="info-title">
@@ -96,12 +102,19 @@ Template Name: About Us Page
 
     <!-- Team Member -->
 
-    <div class="section-heading">
+    <!-- <div class="section-heading">
         <span class="dot"></span>
         <span class="label">Our Team</span>
         <div class="line"></div>
         <hr />
-    </div>
+    </div> -->
+    <div class="section-heading">
+            <div class="dot-label">
+                <span class="dot"></span>
+                <span class="label">Our Team</span>
+            </div>
+            <hr />
+        </div>
     <section class="team-member">
         <div class="container">
             <img src="<?php echo get_template_directory_uri(); ?>/images/nabeel-ghaith.jpg" alt="Nabeel Ghaith">
@@ -120,11 +133,12 @@ Template Name: About Us Page
 
     <!-- Experiences Carousel -->
     <div class="section-heading">
-        <span class="dot"></span>
-        <span class="label">Our Team</span>
-        <div class="line"></div>
-        <hr />
-    </div>
+            <div class="dot-label">
+                <span class="dot"></span>
+                <span class="label">Our Team</span>
+            </div>
+            <hr />
+        </div>
 
     <section class="experiences">
         <div class="container">
@@ -170,10 +184,10 @@ Template Name: About Us Page
 
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 

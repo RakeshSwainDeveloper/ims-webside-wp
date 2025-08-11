@@ -22,11 +22,11 @@
     <div>
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about-us">About Us</a></li>
+        <li><a href="">Services</a></li>
         <li><a href="/blog-main">Blogs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="/contact-us">Contact Us</a></li>
       </ul>
     </div>
     <div>

@@ -7,21 +7,25 @@ Template Name: Contact Us Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
-
-   <!-- Hero Section -->
+    <?php get_header(); ?>
+    <?php if (isset($_GET['status']) && $_GET['status'] === 'success') : ?>
+        <div class="submit-success-message">
+            <p><i class="fa fa-check-circle"></i> Submitted successfully!</p>
+        </div>
+    <?php endif; ?>
+    <!-- Hero Section -->
     <section class="contact-hero">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="Contact Banner" class="hero-img" />
         <div class="hero-overlay">
@@ -82,7 +86,18 @@ Template Name: Contact Us Page
 
             <!-- Contact Form -->
             <div class="contact-form">
-                <form action="#" method="POST">
+                <!-- <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="text" name="phone" placeholder="Phone" />
+                    <input type="text" name="subject" placeholder="Subject" />
+                    <textarea name="message" placeholder="Message" rows="6"></textarea>
+                    <button type="submit">Submit</button>
+                </form> -->
+                <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="POST">
+                    <input type="hidden" name="action" value="contact_form">
+                    <?php wp_nonce_field('submit_contact_form', 'contact_form_nonce'); ?>
+
                     <input type="text" name="name" placeholder="Name" required />
                     <input type="email" name="email" placeholder="Email" required />
                     <input type="text" name="phone" placeholder="Phone" />
@@ -96,17 +111,17 @@ Template Name: Contact Us Page
 
     <!-- Map Section -->
     <section class="map-section">
-       <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="400" frameborder="0"
+        <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="400" frameborder="0"
             style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe/> -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4347.987236977613!2d77.37394267628459!3d28.681671875638166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb004e43710f%3A0x66c17d0dc37fc889!2sRakesh%20Jena%20House!5e1!3m2!1sen!2sin!4v1754824295252!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 
