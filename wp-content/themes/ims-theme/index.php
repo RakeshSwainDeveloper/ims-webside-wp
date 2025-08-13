@@ -86,7 +86,7 @@
       Make <img src="<?php echo get_template_directory_uri(); ?>/images/content-logo.png" alt="icon" class="inline-icon" />
       your brand <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="icon" class="inline-icon" />
       <span class="highlight">unforgettable</span><br />
-      by curating immersive
+      by curating immersive<br>
       <img src="<?php echo get_template_directory_uri(); ?>/images/img-about2.jpg" alt="icon" class="inline-icon" />
       <span class="highlight">experiences</span> through our<br />
       event & exhibition

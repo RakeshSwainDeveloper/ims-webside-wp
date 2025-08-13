@@ -10,6 +10,7 @@ Template Name: Events Page
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>IMS Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
@@ -188,7 +189,7 @@ Template Name: Events Page
                 <img src="<?php echo get_template_directory_uri(); ?>/images/event-av.jpg" alt="AV">
             </div>
             <div class="content">
-                <h3>AV</h3>
+                <h1>AV</h1>
                 <p>
                     Our AV (Audio-Visual) services deliver high-quality sound, video, and projection solutions to
                     elevate your event experience. From LED screens and live streaming to multimedia presentations and

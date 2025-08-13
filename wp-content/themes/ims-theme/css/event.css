@@ -58,7 +58,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 60px 20px 30px 20px;
+    padding: 60px 60px 60px 60px;
     gap: 40px;
 }
 
@@ -66,9 +66,21 @@ hr {
     flex: 1;
 }
 
+.intro-section .left h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.intro-section .left .red-text {
+    color: #a5161a;
+    display: inline-block;
+}
+
 .intro-section .right {
     flex: 2;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     color: #444;
 }
@@ -78,13 +90,13 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    padding: 40px 20px;
+    padding: 40px 40px 40px 40px;
 }
 
 .event-block {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
 }
 
@@ -106,7 +118,9 @@ hr {
 }
 
 .event-block .content h3 {
-    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 12px;
     color: #000;
 }
@@ -115,6 +129,7 @@ hr {
     font-size: 1rem;
     line-height: 1.6;
     color: #333;
+    margin: 1px 1px 1px 1px;
 }
 
 /* CTA Section */
