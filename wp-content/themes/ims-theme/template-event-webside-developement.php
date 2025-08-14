@@ -7,18 +7,19 @@ Template Name: Event Webside Developement Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
     <!-- Hero Section -->
     <section class="hero-section">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="social media Banner" class="hero-image">
@@ -27,8 +28,43 @@ Template Name: Event Webside Developement Page
         </div>
     </section>
 
+
     <!-- Content Section -->
-    <section class="service-content">
+
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">Event website Developement</span>
+    </div>
+    <hr />
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+        <div class="left">
+            <h2><span class="red-text">Powerful Event Websites</span><br>That Elevate Your Brand</h2>
+        </div>
+        <div class="right">
+            <p>
+                In today’s digital-first world, a well-crafted event website is crucial to capturing attention,
+                building excitement, and driving registrations. Our event website development service focuses on
+                delivering high-performing, visually engaging platforms tailored for conferences, exhibitions,
+                corporate gatherings, and brand activations. From landing pages to multi-page portals, we create
+                seamless digital experiences that reflect your event’s energy and goals.
+                <br><br>
+                We combine intuitive design, responsive layouts, and conversion-driven functionality to ensure your
+                website not only looks great but performs exceptionally across all devices. Integrated with
+                essential tools like registration forms, countdowns, schedules, and analytics, your site becomes a
+                central hub for attendee engagement. We also prioritize fast load times and SEO to boost visibility
+                and user satisfaction.
+                <br><br>
+                Whether you’re launching a one-time event or managing a recurring series, our expert team ensures
+                your website supports your objectives from pre-event marketing to post-event reporting. We deliver
+                scalable, secure, and user-friendly platforms that help your event stand out in a crowded digital
+                landscape.
+            </p>
+        </div>
+    </section>
+
+    <!-- <section class="service-content">
         <div class="section-heading">
             <span class="dot"></span>
             <span class="label">Event website Developement</span>
@@ -64,7 +100,7 @@ Template Name: Event Webside Developement Page
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Additional Features Section -->
     <!-- <section class="features-section">
@@ -97,13 +133,13 @@ Template Name: Event Webside Developement Page
         </div>
     </section> -->
 
-
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">Additional Features</span>
+    </div>
+    <hr />
     <section class="features-section">
-        <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Additional Features</span>
-        </div>
-        <hr />
+        
         <div class="features-grid">
             <div class="feature-item">
                 <div class="icon-circle">
@@ -160,10 +196,10 @@ Template Name: Event Webside Developement Page
     </section>
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 

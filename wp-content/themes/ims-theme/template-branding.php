@@ -7,18 +7,18 @@ Template Name: Branding Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
     <section class="hero-banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="Branding Banner" class="hero-image" />
         <h1 class="hero-text">Branding</h1>
@@ -39,11 +39,24 @@ Template Name: Branding Page
             <p>
                 Our branding services are designed to help your event create a lasting impression. From visual
                 identity to messaging consistency, we align your brand across all touchpoints — ensuring every
-                element of your event reflects your story, values, and personality.
+                element of your event reflects your story, values, and personality.<br>
                 We specialize in event-centric branding solutions, including logo design, signage, booth visuals,
                 merchandise, and digital assets tailored to the event experience. Whether you’re promoting a
                 corporate seminar or a large-scale exhibition, we
             </p>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="partners-container">
+            <div class="partners-logos">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/car-rental.jpg" alt="Car Rental" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/real-estate.jpg" alt="Real Estate" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/envato.jpg" alt="Envato" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/green-world.jpg" alt="Green World Technology" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/mountain.jpg" alt="Mountaintrip" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/law.jpg" alt="Law Bureau" />
+            </div>
         </div>
     </section>
 
@@ -133,10 +146,10 @@ Template Name: Branding Page
 
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 

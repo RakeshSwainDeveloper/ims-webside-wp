@@ -7,21 +7,21 @@ Template Name: Events Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
 
-  <!-- Hero Banner -->
+    <!-- Hero Banner -->
     <section class="hero-banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="Events Banner" class="hero-image" />
         <h1 class="hero-text">Events</h1>
@@ -189,7 +189,7 @@ Template Name: Events Page
                 <img src="<?php echo get_template_directory_uri(); ?>/images/event-av.jpg" alt="AV">
             </div>
             <div class="content">
-                <h1>AV</h1>
+                <h3>AV</h3>
                 <p>
                     Our AV (Audio-Visual) services deliver high-quality sound, video, and projection solutions to
                     elevate your event experience. From LED screens and live streaming to multimedia presentations and
@@ -216,29 +216,32 @@ Template Name: Events Page
                 ensures every detail is handled with precision, leaving a lasting impression on your audience.
             </p>
         </div>
-
-        <div class="event-gallery">
-            <!-- Featured Large Card -->
-            <div class="gallery-item large">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024 – Product Launch Pavilion" />
-                <div class="overlay">
-                    <p>TechX 2024 – Product Launch Pavilion</p>
-                    <span class="icon-arrow">➜</span>
-                </div>
-            </div>
-
-            <!-- Small Grid Items -->
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="Event" /></div>
-            <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="Event" /></div>
-        </div>
     </section>
+    <div class="event-gallery">
+        <!-- Top-Left Large Image -->
+        <div class="gallery-item large top-left">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024" />
+            <div class="overlay">
+                <p>TechX 2024 – Product Launch Pavilion</p>
+                <span class="icon-arrow">➜</span>
+            </div>
+        </div>
 
+        <!-- Small Images -->
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-9.jpg" alt="Event" /></div>
+
+        <!-- Bottom-Right Large Image -->
+        <div class="gallery-item large bottom-right">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024 Again" />
+        </div>
+    </div>
 
 
     <section class="cta">
@@ -255,10 +258,10 @@ Template Name: Events Page
 
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 
