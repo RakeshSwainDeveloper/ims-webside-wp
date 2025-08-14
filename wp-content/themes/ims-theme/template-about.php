@@ -99,33 +99,23 @@ Template Name: About Us Page
         </div>
     </section>
 
-
     <!-- Team Member -->
-
-    <!-- <div class="section-heading">
-        <span class="dot"></span>
-        <span class="label">Our Team</span>
-        <div class="line"></div>
-        <hr />
-    </div> -->
     <div class="section-heading">
-            <div class="dot-label">
-                <span class="dot"></span>
-                <span class="label">Our Team</span>
-            </div>
-            <hr />
+        <div class="dot-label">
+            <span class="dot"></span>
+            <span class="label">Our Team</span>
         </div>
+        <hr />
+    </div>
     <section class="team-member">
         <div class="container">
             <img src="<?php echo get_template_directory_uri(); ?>/images/nabeel-ghaith.jpg" alt="Nabeel Ghaith">
             <div class="text">
                 <h3>Nabeel Ghaith</h3>
                 <p>
-                    Nabeel is a visionary and marketing leader. He has spearheaded marketing and branding strategies
-                    across diverse sectors. With over 15 years of experience,
-                    he has cultivated a unique approach in experiential marketing, client engagement, and
-                    leadership. His strategic mindset and execution ability makes him a cornerstone
-                    of IMS’s continued growth and success.
+                    Nabeel Ghaith is the CEO and Founder of IMS. He leveraged his expertise and attraction towards the Events and Exhibition industry to create a successful company that focuses and excels in what it does.
+                    <br><br>
+                    Prior to founding IMS, he worked with one of the leading Telecom companies in the region for over 15 years. Nabeel was responsible for the corporate brand, corporate communications and integrated marketing efforts regionally. He manage the organization’s corporate positioning, branding and identity, marketing campaigns, public relations, social media, and field marketing programs to ensure strong connections with customers. He worked on numerous projects to establish companies in Saudi Arabia, Egypt, Nigeria and India.
                 </p>
             </div>
         </div>
@@ -133,12 +123,12 @@ Template Name: About Us Page
 
     <!-- Experiences Carousel -->
     <div class="section-heading">
-            <div class="dot-label">
-                <span class="dot"></span>
-                <span class="label">Our Team</span>
-            </div>
-            <hr />
+        <div class="dot-label">
+            <span class="dot"></span>
+            <span class="label">Our Team</span>
         </div>
+        <hr />
+    </div>
 
     <section class="experiences">
         <div class="container">
@@ -146,41 +136,46 @@ Template Name: About Us Page
                 <h2><span class="highlight">Crafted Experiences,</span><br>Lasting Impact</h2>
                 <p>
                     We craft immersive event and exhibition experiences with precision and creativity—helping brands
-                    connect,
-                    engage, and leave a lasting impact through every stage of execution.
+                    connect, engage, and leave a lasting impact through every stage of execution.
                 </p>
             </div>
 
-            <div class="carousel">
-                <div class="carousel-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event 1" />
-                    <h4>Meeting Speakers</h4>
-                    <p>To become a leading force in the events and exhibition.</p>
-                    <span class="event-date">13 Apr 2020</span>
-                </div>
-                <div class="carousel-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/event2.png" alt="Event 2" />
-                    <h4>Meeting Speakers</h4>
-                    <p>To become a leading force in the events and exhibition.</p>
-                    <span class="event-date">13 Apr 2020</span>
-                </div>
-                <div class="carousel-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/event3.png" alt="Event 3" />
-                    <h4>Meeting Speakers</h4>
-                    <p>To become a leading force in the events and exhibition.</p>
-                    <span class="event-date">13 Apr 2020</span>
-                </div>
-            </div>
+            <div class="horizontal-timeline">
+                <div class="timeline-line"></div>
 
-            <div class="timeline-nav">
-                <span class="arrow">&larr;</span>
-                <span class="dot"></span>
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="arrow">&rarr;</span>
+                <div class="timeline-card top">
+                    <div class="card-content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event 1">
+                        <h4>Meeting Speakers</h4>
+                        <p>To become a leading force in the events and exhibition.</p>
+                        <span class="event-date">13 Apr 2020</span>
+                    </div>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="timeline-card bottom">
+                    <div class="card-content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/event2.png" alt="Event 2">
+                        <h4>Meeting Speakers</h4>
+                        <p>To become a leading force in the events and exhibition.</p>
+                        <span class="event-date">13 Apr 2020</span>
+                    </div>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="timeline-card top">
+                    <div class="card-content">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/event3.png" alt="Event 3">
+                        <h4>Meeting Speakers</h4>
+                        <p>To become a leading force in the events and exhibition.</p>
+                        <span class="event-date">13 Apr 2020</span>
+                    </div>
+                    <span class="dot"></span>
+                </div>
             </div>
         </div>
     </section>
+
 
 
 

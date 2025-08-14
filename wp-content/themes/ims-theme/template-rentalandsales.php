@@ -7,18 +7,18 @@ Template Name: Rental And Sales Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/rentalAndSales.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/rentalAndSales.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
     <!-- Hero Section -->
     <section class="hero-section">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="Rental & Sales Banner" class="hero-image">
@@ -30,10 +30,13 @@ Template Name: Rental And Sales Page
 
     <section class="rental-sales">
         <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Rental & Sales</span>
+            <div class="label-container">
+                <span class="dot"></span>
+                <span class="label">Rental & Sales</span>
+            </div>
             <hr />
         </div>
+
 
         <div class="intro">
             <div class="intro-title">
@@ -55,12 +58,23 @@ Template Name: Rental And Sales Page
         </div>
     </section>
 
-    <section class="rental-solutions">
+    <section class="rental-sales">
         <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Rental and Sales Solution</span>
+            <div class="label-container">
+                <span class="dot"></span>
+                <span class="label">Rental & Sales</span>
+            </div>
             <hr />
         </div>
+    </section>
+    <section class="rental-solutions">
+        <!-- <div class="section-heading">
+            <div class="label-container">
+                <span class="dot"></span>
+                <span class="label">Rental and Sales Solution</span>
+            </div>
+            <hr />
+        </div> -->
         <article id="event-furniture">
             <img src="<?php echo get_template_directory_uri(); ?>/images/event-furniture.jpg" alt="Event Furniture" />
             <div>
@@ -127,10 +141,10 @@ Template Name: Rental And Sales Page
     </section>
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 
