@@ -30,11 +30,12 @@
     <div class="hero-right">
       <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition.jpg" alt="Exhibition" class="hero-img" />
       <p>
-        <strong>IMS</strong> connects, engages, and delivers with
-        innovation, expertise, and unwavering customer commitment.
+        Your Trusted Partner for Events, Exhibitions & Brand Experiences <br><br>
+        We craft unforgettable moments and immersive experiences that captivate audiences and
+        amplify your brand
       </p>
       <a href="#" class="btn">
-        Explore More <span class="arrow">↗</span>
+        Let’s Create Together <span class="arrow">↗</span>
       </a>
     </div>
   </section>
@@ -58,10 +59,10 @@
     </div>
     <div class="about-right">
       <p>
-        IMS is a decade-strong company committed to delivering high-impact solutions through
-        innovation, expertise, and a customer-first mindset. We connect, engage, and inspire by turning
-        client needs into real-world results — before, during, and after every project. Our team’s deep
-        industry knowledge is the foundation of our success.
+        Since 2008, IMS UAE has been bringing brands to life through unforgettable events and
+        activations across the UAE. With a perfect blend of precision and creativity, we craft
+        experiences that truly connect with audiences. Every detail is thoughtfully executed to
+        transform concepts into lasting impressions
       </p>
       <div class="stats">
         <div>
@@ -73,7 +74,7 @@
           <p>Years of Experience</p>
         </div>
         <div>
-          <strong>215K+</strong>
+          <strong>500</strong>
           <p>Projects Completed</p>
         </div>
       </div>
@@ -164,8 +165,8 @@
 
         <div class="solutions-block">
           <h3><a href="/events">Events</a></h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a
-            galley.</p>
+          <p>We go beyond event planning—we design moments that connect, inspire, and stay with
+            your audience long after the lights go out</p>
         </div>
 
         <div class="solutions-block with-icon">

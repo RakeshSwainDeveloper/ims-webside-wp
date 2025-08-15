@@ -45,16 +45,23 @@ Template Name: About Us Page
         <div class="container">
             <div class="info-grid">
                 <div class="info-title">
-                    <h2><span class="highlight">About Our</span> Company</h2>
+                    <h2><span class="highlight">Empowering Experiences</span> with Precision & Passion</h2>
                 </div>
                 <div class="info-description">
                     <p>
-                        IMS is a decade-strong company committed to delivering high-impact solutions through innovation,
-                        expertise,
-                        and a customer-first mindset. We connect, engage, and inspire by turning client needs into
-                        real-world results —
-                        before, during, and after every project. Our team’s deep industry knowledge is the foundation of
-                        our success.
+                        It all began in 2008, when IMS UAE set out with a simple yet powerful mission—to
+                        transform ordinary events into unforgettable experiences. What started as a passion-driven
+                        journey quickly evolved into a legacy of excellence. Today, we’re proud to be recognized
+                        among the , Abu Dhabi, Saudi Arabia, and beyond, trusted by brands that believe in making
+                        every moment count. At Intelligence Marketing Solutions, we don’t just manage events—we
+                        tell your story. We listen, understand, and dive deep into your vision, crafting events,
+                        exhibitions, and activations that connect with audiences and leave lasting impressions.
+                        From bustling trade shows to elegant galas, every project is fueled by creativity, precision,
+                        and a relentless drive for results. <br><br>
+                        As one of the go-to agencies offering total , we bridge ideas with execution—offering end-toend services that deliver value at every stage. Whether you're looking for a marketing
+                        agency near Single Business Tower, a near Al Moosa Tower, or an , IMS is ready to bring
+                        your vision to life with excellence. Because for us, it's not just about events. It's about
+                        impact. It's about connection. And it's about making your brand unforgettable.
                     </p>
                 </div>
             </div>
@@ -69,30 +76,26 @@ Template Name: About Us Page
                     <p>Years of Experience</p>
                 </div>
                 <div class="stat-item">
-                    <h3>215K+</h3>
+                    <h3>500</h3>
                     <p>Projects Completed</p>
                 </div>
             </div>
 
             <div class="mission-vision">
                 <div class="box">
-                    <h2>Mission</h2>
+                    <h2>Our Mission</h2>
                     <p>
-                        At IMS, we strive to transform ideas into exceptional event experiences through creativity,
-                        precision,
-                        and strategic execution. We are dedicated to building lasting partnerships with our clients by
-                        delivering
-                        excellence at every stage — before, during, and beyond the event.
+                        To deliver end-to-end event, exhibition, and branding solutions that are thoughtfully
+                        tailored, creatively inspired, and flawlessly executed—helping our clients turn ideas into
+                        unforgettable experiences.
                     </p>
                 </div>
                 <div class="box">
-                    <h2>Vision</h2>
+                    <h2>Our Vision</h2>
                     <p>
-                        To become a leading force in the events and exhibition industry by delivering innovative,
-                        immersive, and
-                        result-driven experiences that connect brands with their audiences and leave a meaningful,
-                        lasting impact
-                        across every engagement.
+                        To be the leading creative partner in the UAE and beyond, known for our local expertise,
+                        global standards, and trusted network—setting new benchmarks in event management
+                        through innovation, collaboration, and impact.
                     </p>
                 </div>
             </div>
@@ -140,42 +143,36 @@ Template Name: About Us Page
                 </p>
             </div>
 
-            <div class="horizontal-timeline">
-                <div class="timeline-line"></div>
-
-                <div class="timeline-card top">
-                    <div class="card-content">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event 1">
-                        <h4>Meeting Speakers</h4>
-                        <p>To become a leading force in the events and exhibition.</p>
-                        <span class="event-date">13 Apr 2020</span>
-                    </div>
-                    <span class="dot"></span>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event 1" />
+                    <h4>Meeting Speakers</h4>
+                    <p>To become a leading force in the events and exhibition.</p>
+                    <span class="event-date">13 Apr 2020</span>
                 </div>
-
-                <div class="timeline-card bottom">
-                    <div class="card-content">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/event2.png" alt="Event 2">
-                        <h4>Meeting Speakers</h4>
-                        <p>To become a leading force in the events and exhibition.</p>
-                        <span class="event-date">13 Apr 2020</span>
-                    </div>
-                    <span class="dot"></span>
+                <div class="carousel-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/event2.png" alt="Event 2" />
+                    <h4>Meeting Speakers</h4>
+                    <p>To become a leading force in the events and exhibition.</p>
+                    <span class="event-date">13 Apr 2020</span>
                 </div>
-
-                <div class="timeline-card top">
-                    <div class="card-content">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/event3.png" alt="Event 3">
-                        <h4>Meeting Speakers</h4>
-                        <p>To become a leading force in the events and exhibition.</p>
-                        <span class="event-date">13 Apr 2020</span>
-                    </div>
-                    <span class="dot"></span>
+                <div class="carousel-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/event3.png" alt="Event 3" />
+                    <h4>Meeting Speakers</h4>
+                    <p>To become a leading force in the events and exhibition.</p>
+                    <span class="event-date">13 Apr 2020</span>
                 </div>
+            </div>
+
+            <div class="timeline-nav">
+                <span class="arrow">&larr;</span>
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="arrow">&rarr;</span>
             </div>
         </div>
     </section>
-
 
 
 

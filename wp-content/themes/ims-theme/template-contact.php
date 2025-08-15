@@ -63,7 +63,7 @@ Template Name: Contact Us Page
                     <i class="fa fa-phone"></i>
                     <div>
                         <h4>Phone</h4>
-                        <p>+971 4 5072060<br>+966 56 1977-4567 (KSA)<br>+973 32230441 (Bahrain)</p>
+                        <p>+971 4 5281489(UAE)<br>+966 56 7610717 (KSA)<br>+973 32210441 (Bahrain)</p>
                     </div>
                 </div>
 
@@ -71,7 +71,8 @@ Template Name: Contact Us Page
                     <i class="fa fa-location-dot"></i>
                     <div>
                         <h4>Location</h4>
-                        <p>Office 3051, Single Business Tower, Business Bay<br>P.O. Box: 36677 Dubai, UAE</p>
+                        <p>A Saqr Business Tower,Sheikh Zayed Road
+                            Dubai, UAE</p>
                     </div>
                 </div>
 
@@ -86,14 +87,6 @@ Template Name: Contact Us Page
 
             <!-- Contact Form -->
             <div class="contact-form">
-                <!-- <form action="#" method="POST">
-                    <input type="text" name="name" placeholder="Name" required />
-                    <input type="email" name="email" placeholder="Email" required />
-                    <input type="text" name="phone" placeholder="Phone" />
-                    <input type="text" name="subject" placeholder="Subject" />
-                    <textarea name="message" placeholder="Message" rows="6"></textarea>
-                    <button type="submit">Submit</button>
-                </form> -->
                 <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="POST">
                     <input type="hidden" name="action" value="contact_form">
                     <?php wp_nonce_field('submit_contact_form', 'contact_form_nonce'); ?>
@@ -111,8 +104,6 @@ Template Name: Contact Us Page
 
     <!-- Map Section -->
     <section class="map-section">
-        <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="400" frameborder="0"
-            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe/> -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4347.987236977613!2d77.37394267628459!3d28.681671875638166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb004e43710f%3A0x66c17d0dc37fc889!2sRakesh%20Jena%20House!5e1!3m2!1sen!2sin!4v1754824295252!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
