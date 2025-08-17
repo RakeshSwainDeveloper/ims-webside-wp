@@ -30,7 +30,7 @@
     <div class="hero-right">
       <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition.jpg" alt="Exhibition" class="hero-img" />
       <p>
-        Your Trusted Partner for Events, Exhibitions & Brand Experiences <br><br>
+        Your Trusted Partner for Events, Exhibitions & Brand Experiences <br>
         We craft unforgettable moments and immersive experiences that captivate audiences and
         amplify your brand
       </p>
