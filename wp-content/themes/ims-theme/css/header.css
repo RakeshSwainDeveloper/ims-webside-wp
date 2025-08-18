@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 /* header.css */
 .site-header {
   position: fixed;
@@ -13,7 +15,7 @@
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 20px; 
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,12 +53,15 @@
 .nav-links li a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 400;
   padding: 8px 12px;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
   position: relative;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: 'Public Sans', sans-serif;
+  line-height: 20px;
+  letter-spacing: 0;
 }
 
 .nav-links li a:hover,
@@ -101,8 +106,19 @@
 }
 
 /* Dropdown and Submenu styling */
-.dropdown-menu,
+/* .dropdown-menu, */
 .submenu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ddd;
+  z-index: 1000;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+  top: 120%;
   display: none;
   position: absolute;
   background: #fff;
@@ -128,7 +144,7 @@
 
 .dropdown-menu li a:hover,
 .submenu li a:hover {
-  background-color: #eee;
+  background-color: #a5161a;
 }
 
 /* Submenu positioning */
