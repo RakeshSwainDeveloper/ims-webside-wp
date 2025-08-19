@@ -36,8 +36,12 @@
         We craft unforgettable moments and immersive experiences that captivate audiences and
         amplify your brand
       </p>
-      <a href="#" class="btn">
+      <!-- <a href="#" class="btn">
         Let’s Create Together <span class="arrow">↗</span>
+      </a> -->
+      <a href="/contact-us" class="btn-cta" role="button">
+        <span class="btn-text">Let’s Create Together</span>
+        <span class="btn-icon">↗</span>
       </a>
     </div>
   </section>
@@ -55,8 +59,12 @@
   <section class="about">
     <div class="about-left">
       <h2><span class="highlight">About Our</span> <br />Company</h2>
-      <a href="#" class="btn">
+      <!-- <a href="#" class="btn">
         Read More <span class="arrow">↗</span>
+      </a> -->
+      <a href="/about-us" class="btn-cta" role="button">
+        <span class="btn-text">Read More</span>
+        <span class="btn-icon">↗</span>
       </a>
     </div>
     <div class="about-right">
@@ -125,18 +133,18 @@
       <div class="event-card">
         <img src="<?php echo get_template_directory_uri(); ?>/images/index1.jpg" alt="TechX 2024 – Product Launch Pavilion" />
         <h3>TechX 2024 – Product Launch Pavilion</h3>
-        <a href="#">View More ↗</a>
+        <a href="/events">View More ↗</a>
       </div>
       <div class="event-card">
         <!-- <span class="dot-center"></span> -->
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Global Sustainability Forum – Experience Zone" />
         <h3>Global Sustainability Forum – Experience Zone</h3>
-        <a href="#">View More ↗</a>
+        <a href="/events">View More ↗</a>
       </div>
       <div class="event-card">
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Luxury Living Expo – Exhibition Booth" />
         <h3>Luxury Living Expo – Exhibition Booth</h3>
-        <a href="#">View More ↗</a>
+        <a href="/events">View More ↗</a>
       </div>
     </div>
   </section>
@@ -153,8 +161,12 @@
           <span class="highlight">Comprehensive Solutions</span><br />
           That Deliver
         </h2>
-        <a href="#" class="btn-view-more">
+        <!-- <a href="/events" class="btn-view-more">
           View More ↗
+        </a> -->
+        <a href="/events" class="btn-cta" role="button">
+          <span class="btn-text">View More</span>
+          <span class="btn-icon">↗</span>
         </a>
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="Gallery Image" class="solutions-image" />
       </div>
@@ -315,21 +327,33 @@
       <div class="blog-card">
         <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event Room" />
         <h3>How to Make Your Event More Engaging and Memorable</h3>
-        <a href="#" class="read-more">Read More <span>↗</span></a>
+        <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+         <a href="/blog" class="btn-cta" role="button">
+          <span class="btn-text">Read More</span>
+          <span class="btn-icon">↗</span>
+        </a>
       </div>
 
       <!-- Blog Card 2 -->
       <div class="blog-card">
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Trade Show" />
         <h3>Simple Ways to Get Better Results from Trade Shows</h3>
-        <a href="#" class="read-more">Read More <span>↗</span></a>
+        <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+         <a href="/blog" class="btn-cta" role="button">
+          <span class="btn-text">Read More</span>
+          <span class="btn-icon">↗</span>
+        </a>
       </div>
 
       <!-- Blog Card 3 -->
       <div class="blog-card">
         <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Booth Design" />
         <h3>Top Booth Design Ideas to Attract More Visitors in 2025</h3>
-        <a href="#" class="read-more">Read More <span>↗</span></a>
+        <!-- <a href="#" class="read-more">Read More <span>↗</span></a> -->
+          <a href="/blog" class="btn-cta" role="button">
+          <span class="btn-text">Read More</span>
+          <span class="btn-icon">↗</span>
+        </a>
       </div>
     </div>
   </section>

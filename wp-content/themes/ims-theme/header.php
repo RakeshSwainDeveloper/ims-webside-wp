@@ -1,14 +1,14 @@
 <header class="site-header">
   <div class="container header-container">
-    <!-- Logo -->
-    <a href="/" class="logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="IMS Intelligent Marketing Solutions Logo" />
-    </a>
-
     <!-- Mobile Menu Toggle -->
     <button class="mobile-menu-toggle" aria-label="Toggle navigation">
       ☰
     </button>
+
+    <!-- Logo -->
+    <a href="/" class="logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="IMS Intelligent Marketing Solutions Logo" />
+    </a>
 
     <!-- Navigation -->
     <div class="nav-wrapper">
@@ -18,7 +18,7 @@
           <li><a href="/about-us">About Us</a></li>
 
           <!-- Services Dropdown -->
-          <li class="dropdown">   
+          <li class="dropdown">
             <a href="#">Services <span aria-hidden="true">▾</span></a>
             <ul class="dropdown-menu">
               <!-- Events -->
@@ -92,9 +92,14 @@
 
     <!-- Call to Action -->
     <div class="cta-wrapper">
-      <a href="/contact" class="btn-cta" role="button">
+      <!-- <a href="/contact" class="btn-cta" role="button">
         Get In Touch <span aria-hidden="true">↗</span>
+      </a> -->
+      <a href="/contact" class="btn-cta" role="button">
+        <span class="btn-text">Get In Touch</span>
+        <span class="btn-icon">↗</span>
       </a>
+
     </div>
   </div>
 </header>

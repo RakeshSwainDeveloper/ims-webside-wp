@@ -40,6 +40,7 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .section-heading {
     display: flex;
     flex-direction: column;
@@ -77,8 +78,8 @@
 
 .rental-sales {
     width: 100%;
-    margin: 60px 0 0 0; 
-    padding: 0; 
+    margin: 60px 0 0 0;
+    padding: 0;
     font-family: 'Arial', sans-serif;
     color: #3a0000;
 }
@@ -89,7 +90,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    padding: 0 60px; 
+    padding: 0 60px;
     box-sizing: border-box;
     gap: 10px;
 }
@@ -100,10 +101,12 @@
 }
 
 .intro-title h2 {
-    font-size: 2.8rem;
-    font-weight: bold;
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
     margin: 0;
-    line-height: 1.2;
 }
 
 .highlight {
@@ -115,9 +118,12 @@
 }
 
 .intro-description p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: #444;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
     margin: 0;
 }
 
@@ -149,15 +155,20 @@
 }
 
 .rental-solutions h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
     margin-bottom: 15px;
 }
 
 .rental-solutions p {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: #5c1a1a;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
 }
 
 .cta {
@@ -189,13 +200,21 @@
 }
 
 .red-text {
-    color: #7a0f0f;
-    font-weight: 700;
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #7F1416;
 }
 
 .black-text {
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
     color: #000;
-    font-weight: 700;
 }
 
 .enquire-btn {

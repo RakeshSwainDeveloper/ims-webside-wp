@@ -7,26 +7,49 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  height: 120px;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  opacity: 1;
 }
 
-.header-container {
-  max-width: 1200px;
+/* .header-container {
+  max-width: 1440px;
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+} */
+
+.header,
+.header-container {
+  padding: 10px 70px 10px 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+
+/* .logo {
+  margin-right: 0;
+} */
 
 .logo {
-  margin-right: 0;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 65px;
+  height: 100%;
+  padding-bottom: 10px;
 }
 
+
 .logo img {
-  height: 40px;
+  width: 160px;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav {
@@ -70,10 +93,10 @@
   color: #fff;
 }
 
-.btn-cta {
+/* .btn-cta {
   background-color: #a5161a;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 10px 10px 14px;
   border-radius: 22px;
   text-decoration: none;
   font-weight: 600;
@@ -82,10 +105,42 @@
   gap: 6px;
   transition: background-color 0.3s ease;
   margin-left: 0;
+} */
+.btn-cta {
+  background-color: #7F1416;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  /* space between text and icon */
+  transition: background-color 0.3s ease;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .btn-cta:hover {
   background-color: #870f12;
+}
+
+.btn-cta .btn-text {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.btn-cta .btn-icon {
+  background-color: white;
+  color: #a5161a;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nav-links li a.active {
@@ -237,9 +292,15 @@
     font-size: 0.7rem;
   }
 
-  .header-container {
+  /* .header-container {
     flex-wrap: wrap;
     justify-content: space-between;
+  } */
+
+  .header,
+  .header-container {
+    /* flex-wrap: wrap; */
+    padding: 10px 5vw;
   }
 
   .cta-wrapper {
@@ -255,8 +316,18 @@
     justify-content: center;
   }
 
-  .logo {
+  /* .logo {
     flex: 1 1 auto;
+  } */
+
+  .logo {
+    margin-left: 0;
+    padding-bottom: 8px;
+  }
+
+  .logo img {
+    width: 140px;
+    max-width: 40vw;
   }
 
   .mobile-menu-toggle {
