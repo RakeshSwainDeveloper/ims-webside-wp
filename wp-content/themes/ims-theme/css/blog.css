@@ -30,9 +30,12 @@ main.blog-page {
 }
 
 .blog-post h1 {
-  font-size: 2rem;
+  font-family: 'Figtree', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 46px;
   margin: 0.5rem 0 1rem;
-  color: #111;
+  color: #000;
 }
 
 .post-category {
