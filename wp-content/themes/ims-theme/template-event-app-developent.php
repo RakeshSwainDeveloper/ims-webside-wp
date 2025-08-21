@@ -10,6 +10,8 @@ Template Name: Event App Deelopment Page
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />

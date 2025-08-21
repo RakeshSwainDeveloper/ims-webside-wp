@@ -85,6 +85,43 @@ Template Name: Blog Main Page
         </div>
     </section>
 
+     <section class="blog-section">
+        <div class="blog-cards">
+            <!-- Blog Card 1 -->
+            <div class="blog-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event Room" />
+                <h3>How to Make Your Event More Engaging and Memorable</h3>
+                <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="blog-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Trade Show" />
+                <h3>Simple Ways to Get Better Results from Trade Shows</h3>
+                <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="blog-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Booth Design" />
+                <h3>Top Booth Design Ideas to Attract More Visitors in 2025</h3>
+                <!-- <a href="#" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- Footer include -->

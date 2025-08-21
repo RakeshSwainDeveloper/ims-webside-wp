@@ -7,18 +7,20 @@ Template Name: Photo Gallery
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/event.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
     <!-- Hero Banner -->
     <section class="hero-banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="photo gallery" class="hero-image">
@@ -73,10 +75,10 @@ Template Name: Photo Gallery
     </div>
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 

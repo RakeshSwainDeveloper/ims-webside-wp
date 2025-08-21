@@ -11,6 +11,8 @@ Template Name: Event Webside Developement Page
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IMS Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
@@ -64,74 +66,6 @@ Template Name: Event Webside Developement Page
         </div>
     </section>
 
-    <!-- <section class="service-content">
-        <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Event website Developement</span>
-        </div>
-        <hr />
-
-
-        <div class="intro">
-            <div class="intro-title">
-                <h2>
-                    <span class="highlight">Powerful Event Websites</span><br>
-                    That Elevate Your Brand
-                </h2>
-            </div>
-            <div class="intro-description">
-                <p>
-                    In today’s digital-first world, a well-crafted event website is crucial to capturing attention,
-                    building excitement, and driving registrations. Our event website development service focuses on
-                    delivering high-performing, visually engaging platforms tailored for conferences, exhibitions,
-                    corporate gatherings, and brand activations. From landing pages to multi-page portals, we create
-                    seamless digital experiences that reflect your event’s energy and goals.
-                    <br><br>
-                    We combine intuitive design, responsive layouts, and conversion-driven functionality to ensure your
-                    website not only looks great but performs exceptionally across all devices. Integrated with
-                    essential tools like registration forms, countdowns, schedules, and analytics, your site becomes a
-                    central hub for attendee engagement. We also prioritize fast load times and SEO to boost visibility
-                    and user satisfaction.
-                    <br><br>
-                    Whether you’re launching a one-time event or managing a recurring series, our expert team ensures
-                    your website supports your objectives from pre-event marketing to post-event reporting. We deliver
-                    scalable, secure, and user-friendly platforms that help your event stand out in a crowded digital
-                    landscape.
-                </p>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Additional Features Section -->
-    <!-- <section class="features-section">
-        <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Additional Features</span>
-        </div>
-        <hr />
-        <div class="features-grid">
-            <div class="feature-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/icon-registration.png" alt="Online registration icon">
-                <h3>Online registration</h3>
-                <p>Seamless online registration for hassle-free event entry and tracking.</p>
-            </div>
-            <div class="feature-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/icon-agenda.png" alt="Agenda icon">
-                <h3>Agenda</h3>
-                <p>Create, share, and manage event agendas with real-time updates easily.</p>
-            </div>
-            <div class="feature-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/icon-speaker.png" alt="Speaker profiles icon">
-                <h3>Speaker profiles</h3>
-                <p>Showcase detailed speaker profiles to highlight expertise and session info.</p>
-            </div>
-            <div class="feature-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/icon-virtual.png" alt="Virtual event access icon">
-                <h3>Virtual event access</h3>
-                <p>Seamless access to virtual events from any device, anytime, anywhere.</p>
-            </div>
-        </div>
-    </section> -->
 
     <div class="section-heading">
         <span class="dot"></span>

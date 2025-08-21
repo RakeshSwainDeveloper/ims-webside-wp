@@ -7,18 +7,20 @@ Template Name: AI Powered Chatbot Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/social-media.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
     <!-- Hero Section -->
     <section class="hero-section">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="social media Banner" class="hero-image">
@@ -26,15 +28,13 @@ Template Name: AI Powered Chatbot Page
             <h1>AI-Powered Event Chatbot</h1>
         </div>
     </section>
-
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">AI-Powered Event Chatbot</span>
+    </div>
+    <hr />
     <!-- Content Section -->
     <section class="service-content">
-        <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">AI-Powered Event Chatbot</span>
-        </div>
-        <hr />
-
 
         <div class="intro">
             <div class="intro-title">
@@ -79,10 +79,10 @@ Template Name: AI Powered Chatbot Page
     </section>
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 
