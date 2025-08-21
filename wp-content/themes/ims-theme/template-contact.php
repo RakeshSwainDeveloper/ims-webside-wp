@@ -11,6 +11,8 @@ Template Name: Contact Us Page
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IMS Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
@@ -35,18 +37,14 @@ Template Name: Contact Us Page
 
     <!-- Get In Touch Section -->
 
-    <!-- <div class="section-heading">
+    <div class="section-heading">
         <span class="dot"></span>
-        <span class="label">Get In Touch</span><br>
+        <span class="label">Get In Touch</span>
     </div>
-    <hr /> -->
+    <hr />
 
     <section class="get-in-touch">
-        <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Get In Touch</span><br>
-        </div>
-        <hr />
+    
         <div class="container contact-wrapper">
             <!-- Contact Info -->
             <div class="contact-info">
@@ -96,7 +94,11 @@ Template Name: Contact Us Page
                     <input type="text" name="phone" placeholder="Phone" />
                     <input type="text" name="subject" placeholder="Subject" />
                     <textarea name="message" placeholder="Message" rows="6"></textarea>
-                    <button type="submit">Submit</button>
+                    <!-- <button type="submit">Submit</button> -->
+                    <button type="submit" class="custom-submit-btn">
+                        Submit <span class="btn-icon">↗</span>
+                    </button>
+
                 </form>
             </div>
         </div>

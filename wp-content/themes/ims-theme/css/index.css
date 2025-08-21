@@ -20,11 +20,6 @@ body {
   flex: 1 1 45%;
 }
 
-/* .hero-left h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1.2;
-} */
 .hero-left h1 {
   font-family: 'Figtree', sans-serif;
   font-weight: 600;
@@ -63,13 +58,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* .hero-right p {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 16px;
-  color: #666;
-  margin: 40px 265px 40px 1px;
-} */
-
 .hero-right p {
   font-family: 'Public Sans', sans-serif;
   font-size: 16px;
@@ -77,20 +65,6 @@ body {
   max-width: 500px;
 }
 
-/* .btn {
-  display: inline-block;
-  background-color: #7F1416;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 2rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.btn .arrow {
-  margin-left: 8px;
-  font-size: 1.2em;
-} */
 .btn-cta {
   background-color: #7F1416;
   color: white;
@@ -101,7 +75,6 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 16px;
-  /* space between text and icon */
   transition: background-color 0.3s ease;
   font-family: 'Public Sans', sans-serif;
 }
@@ -141,7 +114,6 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
-  /* padding: 4rem 2rem; */
   gap: 2rem;
   flex-wrap: wrap;
   align-items: center;
@@ -226,7 +198,7 @@ body {
   align-items: center;
   gap: 8px;
   padding: 0 20px;
-  margin: 50px 0 5px 60px;
+  margin: 50px 0 5px 95px;
   line-height: 1;
 }
 
@@ -245,15 +217,13 @@ body {
 }
 
 hr {
-  margin: 0 80px 10px 80px;
+  margin: 10px 95px 5px 95px;
   border: none;
   border-top: 1px solid #ddd;
 }
 
 /* Events Section */
 .events-section {
-  /* padding: 4rem 2rem; */
-  /* max-width: 1200px; */
   margin: 85px 85px 150px 85px;
   background-color: #fff;
 }
@@ -288,26 +258,6 @@ hr {
   color: #666;
   margin-top: 50px;
 }
-
-/* .event-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 5.5rem;
-  margin: 1px 1px 1px -100px;
-}
-
-.event-card {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.event-card img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-  margin-bottom: 0.8rem;
-} */
 
 .event-cards {
   display: flex;

@@ -10,6 +10,8 @@ Template Name: Rental And Sales Page
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/rentalAndSales.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
@@ -26,16 +28,20 @@ Template Name: Rental And Sales Page
             <h1>Rental & Sales</h1>
         </div>
     </section>
-
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">About</span>
+    </div>
+    <hr />
 
     <section class="rental-sales">
-        <div class="section-heading">
+        <!-- <div class="section-heading">
             <div class="label-container">
                 <span class="dot"></span>
                 <span class="label">Rental & Sales</span>
             </div>
             <hr />
-        </div>
+        </div> -->
 
 
         <div class="intro">
@@ -58,7 +64,13 @@ Template Name: Rental And Sales Page
         </div>
     </section>
 
-    <section class="rental-sales">
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">Rental & Sales</span>
+    </div>
+    <hr />
+
+    <!-- <section class="rental-sales">
         <div class="section-heading">
             <div class="label-container">
                 <span class="dot"></span>
@@ -66,7 +78,7 @@ Template Name: Rental And Sales Page
             </div>
             <hr />
         </div>
-    </section>
+    </section> -->
     <section class="rental-solutions">
         <!-- <div class="section-heading">
             <div class="label-container">

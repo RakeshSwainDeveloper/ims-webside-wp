@@ -7,22 +7,22 @@ Template Name: Blog Main Page
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>IMS Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blogmain.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMS Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blogmain.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css" />
 </head>
 
 
 <body>
 
-  <?php get_header(); ?>
+    <?php get_header(); ?>
 
-   <!-- Hero Section -->
+    <!-- Hero Section -->
     <section class="hero-section">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="About Us Banner" class="hero-image">
         <div class="hero-overlay">
@@ -54,31 +54,43 @@ Template Name: Blog Main Page
             <div class="blog-card">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event Room" />
                 <h3>How to Make Your Event More Engaging and Memorable</h3>
-                <a href="/blog" class="read-more">Read More <span>↗</span></a>
+                <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
             </div>
 
             <!-- Blog Card 2 -->
             <div class="blog-card">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Trade Show" />
                 <h3>Simple Ways to Get Better Results from Trade Shows</h3>
-                <a href="/blog" class="read-more">Read More <span>↗</span></a>
+                <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
             </div>
 
             <!-- Blog Card 3 -->
             <div class="blog-card">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Booth Design" />
                 <h3>Top Booth Design Ideas to Attract More Visitors in 2025</h3>
-                <a href="/blog" class="read-more">Read More <span>↗</span></a>
+                <!-- <a href="#" class="read-more">Read More <span>↗</span></a> -->
+                <a href="/blog" class="btn-cta" role="button">
+                    <span class="btn-text">Read More</span>
+                    <span class="btn-icon">↗</span>
+                </a>
             </div>
         </div>
     </section>
 
 
 
-  <!-- Footer include -->
-  <?php get_footer(); ?>
-  <!-- JS loader -->
-  <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
+    <!-- Footer include -->
+    <?php get_footer(); ?>
+    <!-- JS loader -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/include.js"></script>
 
 </body>
 
