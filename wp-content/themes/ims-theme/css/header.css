@@ -14,15 +14,6 @@
   opacity: 1;
 }
 
-/* .header-container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
 .header,
 .header-container {
   padding: 10px 70px 10px 10px;
@@ -31,11 +22,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-
-/* .logo {
-  margin-right: 0;
-} */
 
 .logo {
   display: flex;
@@ -93,20 +79,7 @@
   color: #fff;
 }
 
-/* .btn-cta {
-  background-color: #a5161a;
-  color: white;
-  padding: 10px 10px 10px 14px;
-  border-radius: 22px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  transition: background-color 0.3s ease;
-  margin-left: 0;
-} */
-.btn-cta {
+.header-btn-cta {
   background-color: #7F1416;
   color: white;
   padding: 14px 24px;
@@ -116,21 +89,20 @@
   display: inline-flex;
   align-items: center;
   gap: 16px;
-  /* space between text and icon */
   transition: background-color 0.3s ease;
   font-family: 'Public Sans', sans-serif;
 }
 
-.btn-cta:hover {
+.header-btn-cta:hover {
   background-color: #870f12;
 }
 
-.btn-cta .btn-text {
+.header-btn-cta .header-btn-text {
   font-size: 18px;
   line-height: 1;
 }
 
-.btn-cta .btn-icon {
+.header-btn-cta .header-btn-icon {
   background-color: white;
   color: #a5161a;
   border-radius: 50%;
@@ -310,7 +282,7 @@
     justify-content: center;
   }
 
-  .btn-cta {
+  .header-btn-cta {
     width: 90%;
     text-align: center;
     justify-content: center;

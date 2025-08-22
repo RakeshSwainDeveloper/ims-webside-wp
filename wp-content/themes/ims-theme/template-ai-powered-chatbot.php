@@ -45,19 +45,19 @@ Template Name: AI Powered Chatbot Page
             </div>
             <div class="intro-description">
                 <p>
-                    Our AI-powered event chatbot delivers seamless, real-time assistance to attendees, exhibitors, and
-                    organizers. From answering FAQs to guiding users through event schedules, booth locations, or
-                    registration,
-                    the chatbot ensures instant, round-the-clock support.<br><br>
-                    Custom-built for your event, it integrates with your website, app, or kiosks, offering multilingual
-                    support
-                    and personalized responses. This helps reduce manual inquiries, streamline communication, and
-                    improve user
-                    satisfaction across the board.<br><br>Whether you're hosting a corporate conference, trade show, or
-                    exhibition, the AI chatbot enhances engagement,
-                    improves information flow, and offers insights through user interaction analytics — making your
-                    event
-                    smarter and more efficient.
+                    At IMS, we enhance the event experience with our AI-powered event chatbot, designed to
+                    provide real-time assistance to attendees, exhibitors, and organizers. From answering
+                    frequently asked questions to guiding guests through schedules, booth locations, or
+                    registration steps, the chatbot operates instantly and around the clock—ensuring no
+                    question goes unanswered and every interaction is seamless.<br><br>
+                    Our chatbot is fully customizable for your event and can be easily integrated with your
+                    website, event app, or kiosks. It supports multiple languages and delivers tailored
+                    responses to suit your audience's needs. By automating repetitive queries and offering
+                    personalized support, the chatbot reduces manual workload, improves communication, and
+                    enhances satisfaction across every touchpoint.<br><br>Whether you're hosting a large-scale exhibition, a trade show, or a corporate event, the AI
+                    chatbot elevates engagement, streamlines event flow, and captures valuable insights
+                    through real-time analytics. With IMS, you can make your event more intelligent,
+                    responsive, and efficient—creating an experience that truly stands out.
                 </p>
             </div>
         </div>
@@ -67,15 +67,15 @@ Template Name: AI Powered Chatbot Page
 
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+       <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

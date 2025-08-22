@@ -95,9 +95,9 @@
       <!-- <a href="/contact" class="btn-cta" role="button">
         Get In Touch <span aria-hidden="true">↗</span>
       </a> -->
-      <a href="/contact" class="btn-cta" role="button">
-        <span class="btn-text">Get In Touch</span>
-        <span class="btn-icon">↗</span>
+      <a href="/contact" class="header-btn-cta" role="button">
+        <span class="header-btn-text">Get In Touch</span>
+        <span class="header-btn-icon">↗</span>
       </a>
 
     </div>

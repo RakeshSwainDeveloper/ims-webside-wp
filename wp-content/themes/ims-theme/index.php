@@ -22,7 +22,7 @@
       <h1>
         Intelligent <br />
         <span class="marketing-line">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/content-logo.png" alt="Icon" class="logo-icon" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/content-logo.jpg" alt="Icon" class="logo-icon" />
           <span class="highlight">Marketing</span>
         </span>
         <br />
@@ -94,14 +94,14 @@
   <!-- Highlight Message Section -->
   <section class="highlight-message">
     <h2>
-      Make <img src="<?php echo get_template_directory_uri(); ?>/images/content-logo.png" alt="icon" class="inline-icon" />
-      your brand <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="icon" class="inline-icon" />
+      Make <img src="<?php echo get_template_directory_uri(); ?>/images/content-logo.jpg" alt="icon" class="inline-icon" />
+      your brand <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="icon" class="inline-icon" />
       <span class="highlight">unforgettable</span><br />
       by curating immersive<br>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/img-about2.jpg" alt="icon" class="inline-icon" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-round.png" alt="icon" class="inline-icon" />
       <span class="highlight">experiences</span> through our<br />
       event & exhibition
-      <img src="<?php echo get_template_directory_uri(); ?>/images/event3.png" alt="icon" class="inline-icon" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/officers.png" alt="icon" class="inline-icon" />
     </h2>
   </section>
 
@@ -137,12 +137,12 @@
       </div>
       <div class="event-card">
         <!-- <span class="dot-center"></span> -->
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Global Sustainability Forum – Experience Zone" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/flower.png" alt="Global Sustainability Forum – Experience Zone" />
         <h3>Global Sustainability Forum – Experience Zone</h3>
         <a href="/events">View More ↗</a>
       </div>
       <div class="event-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Luxury Living Expo – Exhibition Booth" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="Luxury Living Expo – Exhibition Booth" />
         <h3>Luxury Living Expo – Exhibition Booth</h3>
         <a href="/events">View More ↗</a>
       </div>
@@ -259,7 +259,7 @@
           coordination. Our trade show booth turned heads all weekend.
         </p>
         <div class="testimonial-user">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Anita Deshmukh" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Anita Deshmukh" />
           <div class="testimonial-user-info">
             <div class="stars">★★★★★</div>
             <strong>Anita Deshmukh</strong>
@@ -275,7 +275,7 @@
           showcase a huge success. Highly recommend them for any type of event!
         </p>
         <div class="testimonial-user">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Mohammed Al Zayani" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Mohammed Al Zayani" />
           <div class="testimonial-user-info">
             <div class="stars">★★★★★</div>
             <strong>Mohammed Al Zayani</strong>
@@ -291,7 +291,7 @@
           and was managed with absolute professionalism.
         </p>
         <div class="testimonial-user">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Lisa Dsouza" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-round.png" alt="Lisa Dsouza" />
           <div class="testimonial-user-info">
             <div class="stars">★★★★★</div>
             <strong>Lisa Dsouza</strong>
@@ -325,7 +325,7 @@
     <div class="blog-cards">
       <!-- Blog Card 1 -->
       <div class="blog-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event1.jpg" alt="Event Room" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Event Room" />
         <h3>How to Make Your Event More Engaging and Memorable</h3>
         <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
          <a href="/blog" class="btn-cta" role="button">
@@ -336,7 +336,7 @@
 
       <!-- Blog Card 2 -->
       <div class="blog-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Trade Show" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/crowded-complex.png" alt="Trade Show" />
         <h3>Simple Ways to Get Better Results from Trade Shows</h3>
         <!-- <a href="/blog" class="read-more">Read More <span>↗</span></a> -->
          <a href="/blog" class="btn-cta" role="button">
@@ -347,7 +347,7 @@
 
       <!-- Blog Card 3 -->
       <div class="blog-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Booth Design" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/officers.png" alt="Booth Design" />
         <h3>Top Booth Design Ideas to Attract More Visitors in 2025</h3>
         <!-- <a href="#" class="read-more">Read More <span>↗</span></a> -->
           <a href="/blog" class="btn-cta" role="button">

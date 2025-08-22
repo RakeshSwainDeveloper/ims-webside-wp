@@ -48,7 +48,7 @@
       </ul>
     </div>
     <div class="footer-logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logo-footer.png" alt="IMS Logo" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="IMS Logo" />
       <p>We add value through our industry leading competence in offering a complete range of high impact solutions</p>
     </div>
   </div>

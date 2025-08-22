@@ -39,12 +39,11 @@ Template Name: Exhibitions Page
         </div>
         <div class="right">
             <p>
-                Our exhibition services are designed to elevate your brand presence through creative, engaging, and
-                strategically planned booth setups. We handle every aspect — from concept, design, and fabrication to
-                logistics and on-site execution — ensuring a smooth experience from start to finish.
-                Whether you're participating in a trade show, industry fair, or corporate expo, our team works closely
-                with you to create customized exhibits that attract attention, drive engagement, and deliver measurable
-                ROI.
+                Our exhibition solutions are designed to position your brand in front of the right audience
+                through engaging, immersive environments. Whether you’re launching a new product,
+                building awareness, or networking with industry leaders, we offer end-to-end exhibition
+                support—from booth design to staffing—so you stand out, stay relevant, and make every
+                moment count.
             </p>
         </div>
     </section>
@@ -58,15 +57,14 @@ Template Name: Exhibitions Page
     <section class="event-management-section">
         <div id="exhibition-stands" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-stands.jpg" alt="Event Management">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-stand.png" alt="Event Management">
             </div>
             <div class="content">
                 <h3>Exhibition Stands</h3>
                 <p>
-                    We design and build tailored exhibition stands that reflect your brand’s identity and attract
-                    attention on the show floor. From concept to execution, our solutions combine creativity,
-                    functionality, and impact to help you stand out, engage visitors, and leave a lasting impression at
-                    every event.
+                    Exhibition stands are designed and built to reflect your brand with precision and creativity.
+                    Using cutting-edge design and strategic messaging, we create immersive spaces that
+                    capture attention, communicate your value, and convert visitors into business connections.
                 </p>
             </div>
         </div>
@@ -74,28 +72,28 @@ Template Name: Exhibitions Page
         <!-- Corporate Events -->
         <div id="exhibition-event" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Corporate Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Corporate Events" />
             </div>
             <div class="content">
                 <h3>Exhibition Event Services</h3>
                 <p>
-                    Our exhibition event services cover everything from planning and logistics to on-site coordination
-                    and support. We ensure your event runs smoothly and delivers maximum impact, offering expert
-                    guidance, professional setup, and attendee engagement strategies tailored to your goals.
+                    We handle every aspect of your exhibition participation—logistics, setup, compliance,
+                    scheduling, and dismantling—delivering a smooth and stress-free experience. Our expert
+                    support ensures your team can focus on audience engagement while we manage the
+                    behind-the-scenes execution flawlessly.
                 </p>
             </div>
         </div>
         <div id="art-galleries" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/art-galleries.jpg" alt="Event Management">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-art.png" alt="Event Management">
             </div>
             <div class="content">
                 <h3>Art Galleries & Shows</h3>
                 <p>
-                    We design and manage stunning art galleries and shows that highlight creativity and culture. From
-                    space curation to lighting and display, our team ensures a seamless visual experience that enhances
-                    the artist’s vision while engaging and inspiring every visitor. Let us bring your art event to life
-                    with professionalism and flair.
+                    Whether hosting a solo artist exhibit or a multi-brand showcase, we design and manage
+                    elegant art galleries and shows that capture attention, evoke emotion, and drive
+                    engagement with your creative work.
                 </p>
             </div>
         </div>
@@ -103,29 +101,27 @@ Template Name: Exhibitions Page
         <!-- Corporate Events -->
         <div id="shell-scheme" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Corporate Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Corporate Events" />
             </div>
             <div class="content">
                 <h3>Shell Scheme</h3>
                 <p>
-                    Our shell scheme solutions offer a flexible, professional, and cost-effective way to set up
-                    exhibition booths. Designed for quick installation and custom branding, these modular systems
-                    provide a clean and organized space that enhances exhibitor visibility while ensuring a smooth
-                    experience for both organizers and participants.
+                    Our shell scheme booths are designed for efficiency, affordability, and versatility—ideal for
+                    multi-vendor exhibitions or events with standardized setups. We ensure each stand reflects
+                    your brand identity with clarity.
                 </p>
             </div>
         </div>
         <div id="custom-stands" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Event Management">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Event Management">
             </div>
             <div class="content">
                 <h3>Custom Stands</h3>
                 <p>
-                    Our custom stands are tailored to reflect your brand’s identity and captivate your audience. From
-                    concept to creation, we design unique, eye-catching structures that combine functionality with
-                    creativity. Perfect for making a bold impression at exhibitions, trade shows, or promotional events,
-                    our stands drive engagement and visibility.
+                    We specialize in designing and building bespoke exhibition stands that align with your
+                    brand objectives, maximize floor space, and leave a strong visual impact—whether for trade
+                    shows, expos, or product launches.
                 </p>
             </div>
         </div>
@@ -133,15 +129,15 @@ Template Name: Exhibitions Page
         <!-- Corporate Events -->
         <div id="event-staffing" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-stoffing.jpg" alt="Corporate Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-staff.png" alt="Corporate Events" />
             </div>
             <div class="content">
                 <h3>Event Staffing</h3>
                 <p>
-                    Our event staffing services ensure you have skilled, trained professionals representing your brand
-                    with excellence. From hosts and hostesses to technical crews and brand ambassadors, we provide the
-                    right talent to support seamless execution. Enhance your event’s professionalism and guest
-                    experience with our reliable and dedicated team.
+                    Experienced event staff—including hostesses, promoters, technicians, and brand
+                    ambassadors—provide seamless on-site support and represent your brand with
+                    professionalism. We ensure every exhibition or activation runs smoothly while maintaining
+                    a consistent, polished brand image throughout the experience.
                 </p>
             </div>
         </div>
@@ -166,7 +162,7 @@ Template Name: Exhibitions Page
     <div class="event-gallery">
         <!-- Top-Left Large Image -->
         <div class="gallery-item large top-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="TechX 2024" />
             <div class="overlay">
                 <p>TechX 2024 – Product Launch Pavilion</p>
                 <span class="icon-arrow">➜</span>
@@ -174,31 +170,31 @@ Template Name: Exhibitions Page
         </div>
 
         <!-- Small Images -->
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-9.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/flower.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/crowded-complex.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/corridor.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/exhibition.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/officers.png" alt="Event" /></div>
 
         <!-- Bottom-Right Large Image -->
         <div class="gallery-item large bottom-right">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024 Again" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="TechX 2024 Again" />
         </div>
     </div>
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

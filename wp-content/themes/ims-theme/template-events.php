@@ -41,12 +41,11 @@ Template Name: Events Page
         </div>
         <div class="right">
             <p>
-                We specialize in crafting exceptional events that leave lasting impressions. From corporate conferences
-                and brand launches to cultural gatherings and social celebrations, our team ensures every detail is
-                executed with creativity and precision. We handle everything — from planning, venue setup, and
-                entertainment to branding and on-site management — so you can focus on your guests. With a commitment to
-                excellence and innovation, we transform your vision into a seamless and impactful experience that truly
-                engages your audience and elevates your message.
+                At IMS, we craft experiences that go above and beyond expectations. From corporate galas
+                to private celebrations and large-scale activations, we deliver creative, flawlessly executed
+                events that inspire, engage, and leave lasting impressions. Our full-service event solutions
+                combine strategic planning, design innovation, and technical expertise to bring every vision
+                to life—seamlessly and memorably
             </p>
         </div>
     </section>
@@ -61,15 +60,14 @@ Template Name: Events Page
     <section class="event-management-section">
         <div id="event-management" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-mgmt1.jpg" alt="Event Management">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-management.png" alt="Event Management">
             </div>
             <div class="content">
                 <h3>Event Management</h3>
                 <p>
-                    Our event management service covers end-to-end planning, coordination, and execution for corporate,
-                    social, and brand events. From venue selection and logistics to guest engagement and on-site
-                    support, we ensure every aspect is handled with precision. We turn your ideas into seamless,
-                    impactful experiences that reflect your goals and leave a lasting impression.
+                    Our expert event managers handle every detail from concept to completion—venue
+                    sourcing, logistics, staffing, compliance, and contingency planning—ensuring every event
+                    runs smoothly and meets your business or brand goals
                 </p>
             </div>
         </div>
@@ -77,15 +75,15 @@ Template Name: Events Page
         <!-- Corporate Events -->
         <div id="corporate-events" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/corporate.jpg" alt="Corporate Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-corpo.png" alt="Corporate Events" />
             </div>
             <div class="content">
                 <h3>Corporate Events</h3>
                 <p>
-                    Our corporate event services are designed to elevate your brand through expertly planned
-                    conferences, product launches, seminars, and annual gatherings. We manage every detail — venue,
-                    branding, tech setup, and guest coordination — ensuring a professional and impactful experience that
-                    aligns with your business goals and strengthens stakeholder relationships.
+                    Whether it’s a product launch, annual conference, or employee appreciation event, our
+                    corporate event services are crafted to showcase your brand’s identity, engage your
+                    audience, and deliver a professional experience with strategic precision and creative
+                    execution.
                 </p>
             </div>
         </div>
@@ -93,15 +91,15 @@ Template Name: Events Page
         <!-- Private Events -->
         <div id="private-events" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/private.jpg" alt="Private Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-private.png" alt="Private Events" />
             </div>
             <div class="content">
                 <h3>Private Events</h3>
                 <p>
-                    Our private event services cater to personal milestones with style and precision. From intimate
-                    gatherings to grand celebrations, we handle venue selection, décor, entertainment, and logistics,
-                    creating memorable experiences tailored to your vision. Whether it's a birthday, anniversary, or
-                    private party, we bring your event to life with elegance and ease.
+                    We curate unforgettable private events that celebrate life’s most cherished moments—
+                    whether it’s a milestone birthday, an intimate gathering, or a themed celebration. With
+                    bespoke concepts, elegant décor, and seamless coordination, thoughtfully tailored to reflect
+                    your personality, style, and story
                 </p>
             </div>
         </div>
@@ -109,22 +107,22 @@ Template Name: Events Page
         <!-- Sports Events -->
         <div id="sports-events" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/sports.jpg" alt="Sports Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-sports.png" alt="Sports Events" />
             </div>
             <div class="content">
                 <h3>Sports Events</h3>
                 <p>
-                    We specialize in organizing dynamic sports events, from local tournaments to large-scale
-                    championships. Our team manages end-to-end logistics, including venue coordination, equipment setup,
-                    crowd management, and live coverage. With a focus on precision and excitement, we ensure an
-                    unforgettable experience for athletes, sponsors, and fans alike.
+                    We deliver high-impact sports events that engage and energize audiences—ranging from
+                    tournaments and fan zones to athlete meet-and-greets. Our team handles everything from
+                    permits and crowd control to branding and vendor management, ensuring a seamless,
+                    exciting experience from planning to execution.
                 </p>
             </div>
         </div>
 
         <div id="wedding-production" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/wedding.jpg" alt="Wedding Production" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-wedding.png" alt="Wedding Production" />
             </div>
             <div class="content">
                 <h3>Wedding Production</h3>
@@ -139,15 +137,14 @@ Template Name: Events Page
         <!-- Theming and Decor -->
         <div id="theming-decor" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/theming-decor.jpg" alt="Theming and Decor">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-theming.png" alt="Theming and Decor">
             </div>
             <div class="content">
                 <h3>Theming and Decor</h3>
                 <p>
-                    Our theming and decor service transforms event spaces into immersive experiences. From concept to
-                    execution, we craft visually stunning environments tailored to your theme. Whether it’s elegant,
-                    modern, traditional, or bold, we combine creative design with expert styling to elevate ambiance and
-                    leave a lasting impression on every guest.
+                    Immersive themes and custom décor bring your event vision to life. Our in-house design
+                    team crafts cohesive visual narratives that align with your brand, story, or celebration—
+                    enhancing atmosphere, engagement, and the overall impact of your event.
                 </p>
             </div>
         </div>
@@ -155,15 +152,14 @@ Template Name: Events Page
         <!-- Mall Activations -->
         <div id="mall-activations" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/mall-activation.jpg" alt="Mall Activations">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-mall.png" alt="Mall Activations">
             </div>
             <div class="content">
                 <h3>Mall Activations</h3>
                 <p>
-                    Mall activations are powerful engagement tools designed to capture footfall and create brand
-                    awareness in high-traffic retail environments. We create interactive, visually appealing setups that
-                    invite customers to experience your brand firsthand. From product displays to live demos and
-                    contests, our activations are tailored to drive attention and meaningful interaction.
+                    We create interactive mall activations that attract, engage, and convert shoppers. From popups and seasonal displays to influencer-driven events, our experiences are designed to
+                    boost footfall, enhance brand visibility, and deliver measurable results in high-traffic retail
+                    environments.
                 </p>
             </div>
         </div>
@@ -171,15 +167,14 @@ Template Name: Events Page
         <!-- Light and Sound -->
         <div id="light-sound" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/light-sound.jpg" alt="Light And Sound">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-light.png" alt="Light And Sound">
             </div>
             <div class="content">
                 <h3>Light And Sound</h3>
                 <p>
-                    Our Light and Sound services bring events to life with professional-grade equipment and technical
-                    expertise. From dynamic lighting setups to crystal-clear audio systems, we ensure every moment is
-                    impactful and immersive. Whether it’s a grand stage or an intimate gathering, our team crafts the
-                    perfect ambiance to match your event’s tone and energy.
+                    Expert technicians provide crystal-clear audio and intelligent lighting that elevate the mood,
+                    pace, and energy of any event. From intimate gatherings to large stadium productions, we
+                    create immersive atmospheres that leave lasting impressions on every guest.
                 </p>
             </div>
         </div>
@@ -187,15 +182,15 @@ Template Name: Events Page
         <!-- AV -->
         <div class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-av.jpg" alt="AV">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-av.png" alt="AV">
             </div>
             <div class="content">
-                <h3>AV</h3>
+                <h3>AV (Audio Visual)</h3>
                 <p>
-                    Our AV (Audio-Visual) services deliver high-quality sound, video, and projection solutions to
-                    elevate your event experience. From LED screens and live streaming to multimedia presentations and
-                    video walls, we ensure seamless integration and flawless execution. Perfect for conferences,
-                    concerts, and exhibitions, our AV support brings every detail to life.
+                    Cutting-edge AV technology powers every aspect of your event—LED walls, projection
+                    mapping, live streaming, and hybrid solutions. We ensure flawless content delivery and
+                    immersive audience engagement with seamless integration, technical precision, and
+                    support tailored to your venue and goals.
                 </p>
             </div>
         </div>
@@ -221,7 +216,7 @@ Template Name: Events Page
     <div class="event-gallery">
         <!-- Top-Left Large Image -->
         <div class="gallery-item large top-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="TechX 2024" />
             <div class="overlay">
                 <p>TechX 2024 – Product Launch Pavilion</p>
                 <span class="icon-arrow">➜</span>
@@ -229,32 +224,32 @@ Template Name: Events Page
         </div>
 
         <!-- Small Images -->
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="Event" /></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-9.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/flower.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/crowded-complex.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/corridor.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/exhibition.jpg" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="Event" /></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/officers.png" alt="Event" /></div>
 
         <!-- Bottom-Right Large Image -->
         <div class="gallery-item large bottom-right">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="TechX 2024 Again" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="TechX 2024 Again" />
         </div>
     </div>
 
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

@@ -45,18 +45,20 @@ Template Name: Registration & Ticketing Software Page
             </div>
             <div class="intro-description">
                 <p>
-                    Our Registration & Ticketing Software simplifies guest check-ins and digital ticket sales with ease
-                    and efficiency. Designed for modern events, this solution allows attendees to register quickly
-                    online or at the venue with digital passes. Event organizers gain real-time access to attendee data,
-                    enhancing planning and execution.
+                    At IMS, our Registration & Ticketing Software is designed to make guest check-ins and
+                    digital ticket sales simple, efficient, and seamless. Built for modern events, this solution
+                    empowers attendees to register quickly and securely through intuitive digital passes. Event
+                    organizers gain instant access to attendee data, which supports smoother planning and
+                    flawless on-site execution.
                     <br><br>
-                    With seamless ticketing integration, you can manage early-bird pricing, group bookings, and VIP
-                    access, all
-                    in one platform. The software ensures secure payments and generates instant e-tickets, reducing
-                    manual
-                    efforts and improving the guest experience.<br><br>Whether it's a corporate event, exhibition, or
-                    concert, our digital registration and ticketing tools are
-                    built to scale. Offer a smooth, professional entry process that leaves a lasting first impression.
+                    By integrating ticketing with seating, group bookings, and VIP access, our platform provides
+                    a complete solution in one place. It also manages secure payments and guarantees real-time
+                    updates, reducing manual tasks and enhancing the overall guest experience. This
+                    comprehensive approach helps eliminate inefficiencies while keeping the focus on
+                    delivering a great event.<br><br>From corporate conferences to exhibitions and concerts, IMS offers scalable, reliable
+                    registration and ticketing tools that leave a professional first impression. Our streamlined
+                    system ensures a smooth entry process, setting the tone for an organized and memorable
+                    event from the very first interaction.
                 </p>
             </div>
         </div>
@@ -66,15 +68,15 @@ Template Name: Registration & Ticketing Software Page
 
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

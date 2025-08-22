@@ -24,7 +24,7 @@ Template Name: Photo Gallery
     <!-- Hero Banner -->
     <section class="hero-banner">
         <img src="<?php echo get_template_directory_uri(); ?>/images/waiters.jpg" alt="photo gallery" class="hero-image">
-        <h1 class="hero-text">Events</h1>
+        <h1 class="hero-text">Photo Gallery</h1>
     </section>
 
     <div class="section-heading">
@@ -50,7 +50,7 @@ Template Name: Photo Gallery
     <div class="event-gallery">
         <!-- Top-left LARGE image (2x2) -->
         <div class="gallery-item large top-left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="Large 1">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="Large 1">
             <div class="overlay">
                 <p>TechX 2024 – Product Launch Pavilion</p>
                 <span class="icon-arrow">➜</span>
@@ -58,22 +58,32 @@ Template Name: Photo Gallery
         </div>
 
         <!-- Small images -->
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-2.jpg" alt="img2"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-3.jpg" alt="img3"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-4.jpg" alt="img4"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-5.jpg" alt="img5"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-6.jpg" alt="img6"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="img7"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/flower.png" alt="img2"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="img3"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/crowded-complex.png" alt="img4"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/corridor.png" alt="img5"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/exhibition.jpg" alt="img6"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="img7"></div>
 
         <!-- Bottom-right LARGE image (2x2) -->
         <div class="gallery-item large bottom-right">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-1.jpg" alt="Large 2">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="Large 2">
         </div>
 
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-8.jpg" alt="img8"></div>
-        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-9.jpg" alt="img9"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/rooftop.png" alt="img8"></div>
+        <div class="gallery-item"><img src="<?php echo get_template_directory_uri(); ?>/images/officers.png" alt="img9"></div>
     </div>
-
+    <section class="cta">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
+        <h2>
+            <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
+            <span class="black-text">Let’s Talk!</span>
+        </h2>
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
+            Enquire Now
+            <span class="icon-arrow">➔</span>
+        </a>
+    </section>
 
     <!-- Footer include -->
     <?php get_footer(); ?>

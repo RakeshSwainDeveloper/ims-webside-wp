@@ -46,22 +46,23 @@ Template Name: Event Webside Developement Page
         </div>
         <div class="right">
             <p>
-                In today’s digital-first world, a well-crafted event website is crucial to capturing attention,
-                building excitement, and driving registrations. Our event website development service focuses on
-                delivering high-performing, visually engaging platforms tailored for conferences, exhibitions,
-                corporate gatherings, and brand activations. From landing pages to multi-page portals, we create
-                seamless digital experiences that reflect your event’s energy and goals.
+                In today’s digital-first world, a well-designed event website is essential for creating impact,
+                generating excitement, and driving registrations. At IMS, we specialize in building custom
+                websites that focus on performance and user experience while aligning perfectly with your
+                event goals. From corporate gatherings and exhibitions to conferences and brand
+                activations, we develop responsive platforms that reflect your brand and drive engagement
+                at every stage of the attendee journey.
                 <br><br>
-                We combine intuitive design, responsive layouts, and conversion-driven functionality to ensure your
-                website not only looks great but performs exceptionally across all devices. Integrated with
-                essential tools like registration forms, countdowns, schedules, and analytics, your site becomes a
-                central hub for attendee engagement. We also prioritize fast load times and SEO to boost visibility
-                and user satisfaction.
+                Our approach blends intuitive design with strategic layout and functionality to ensure your
+                website not only looks great but also performs seamlessly. We integrate everything from
+                registration systems, payment gateways, and check-ins to real-time updates and analytics.
+                Optimized for fast load times and SEO, our websites are built to enhance visibility while
+                offering a smooth and accessible experience across devices.
                 <br><br>
-                Whether you’re launching a one-time event or managing a recurring series, our expert team ensures
-                your website supports your objectives from pre-event marketing to post-event reporting. We deliver
-                scalable, secure, and user-friendly platforms that help your event stand out in a crowded digital
-                landscape.
+                Whether you're hosting a one-time event or managing a recurring series, IMS delivers event
+                websites that are scalable, secure, and easy to navigate. Our expert team works closely with
+                you from concept to launch, creating platforms that support your goals, simplify event
+                promotion, and help your brand stand out in a crowded digital space.
             </p>
         </div>
     </section>
@@ -73,7 +74,7 @@ Template Name: Event Webside Developement Page
     </div>
     <hr />
     <section class="features-section">
-        
+
         <div class="features-grid">
             <div class="feature-item">
                 <div class="icon-circle">
@@ -118,15 +119,15 @@ Template Name: Event Webside Developement Page
 
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

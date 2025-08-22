@@ -39,12 +39,13 @@ Template Name: Branding Page
         </div>
         <div class="right">
             <p>
-                Our branding services are designed to help your event create a lasting impression. From visual
-                identity to messaging consistency, we align your brand across all touchpoints — ensuring every
-                element of your event reflects your story, values, and personality.<br>
-                We specialize in event-centric branding solutions, including logo design, signage, booth visuals,
-                merchandise, and digital assets tailored to the event experience. Whether you’re promoting a
-                corporate seminar or a large-scale exhibition, we
+                Our branding services are designed to help your event create a lasting impression. From
+                exhibition signage to consumer activations, we align your brand message with powerful
+                visuals, strategic placements, and personalized gifts.
+                We specialize in event-focused branding solutions, including logo design, signage, booth
+                visuals, merchandise, and digital assets tailored to live or virtual environments. Whether
+                you’re promoting a corporate seminar or a large-scale exhibition, we ensure your brand
+                speaks with purpose.
             </p>
         </div>
     </section>
@@ -72,15 +73,15 @@ Template Name: Branding Page
     <section class="event-management-section">
         <div id="signage-bill" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/signage.jpg" alt="Event Management">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-signage.png" alt="Event Management">
             </div>
             <div class="content">
-                <h3>Signage / Bill Boards</h3>
+                <h3>Signage / Billboards</h3>
                 <p>
-                    We design and deliver high-visibility signage and billboard solutions that amplify your brand
-                    presence at events and exhibitions. From directional signs to large-scale promotional boards,
-                    our creatives ensure clear messaging, bold visuals, and strategic placements to maximize
-                    audience reach and engagement.
+                    We design and deliver high-visibility signage and billboard solutions that amplify your
+                    brand presence at events and exhibitions. From directional signs and entry points to
+                    promotional boards, our solutions use clean messaging, bold visuals, and strategic
+                    placements to maximize visibility and engagement.
                 </p>
             </div>
         </div>
@@ -88,7 +89,7 @@ Template Name: Branding Page
         <!-- Corporate Events -->
         <div id="brand-activations" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Corporate Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Corporate Events" />
             </div>
             <div class="content">
                 <h3>Brand Activations</h3>
@@ -104,15 +105,15 @@ Template Name: Branding Page
         <!-- Private Events -->
         <div id="roadshows" class="event-block">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Private Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Private Events" />
             </div>
             <div class="content">
                 <h3>Roadshows</h3>
                 <p>
-                    Our roadshow services are designed to bring your brand directly to your audience across multiple
-                    locations. We manage every detail — from logistics and setup to engagement strategies — ensuring
-                    consistent messaging and immersive brand experiences that drive awareness, generate leads, and
-                    create lasting regional impact.
+                    Our roadshow services are designed to bring your brand directly to your audience across
+                    locations and venues. We manage every detail—from logistics and venue setup to local
+                    engagement strategies—helping you reach new markets, generate leads, and create lasting
+                    regional impact.
                 </p>
             </div>
         </div>
@@ -120,30 +121,30 @@ Template Name: Branding Page
         <!-- Sports Events -->
         <div id="corporate-gifts" class="event-block reverse">
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/event-latest-7.jpg" alt="Sports Events" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/event-table.png" alt="Sports Events" />
             </div>
             <div class="content">
                 <h3>Corporate Gifts</h3>
                 <p>
-                    Our corporate gift solutions help you build lasting relationships with clients, partners, and
-                    employees. We offer a wide range of personalized, premium-quality gifts tailored to suit every
-                    occasion. From festive hampers to branded merchandise, our gifting service ensures your brand is
-                    remembered and appreciated.
+                    Our corporate gifting solutions help you build lasting relationships with clients, employees,
+                    and stakeholders. From personalized merchandise to exclusive executive gifts, we source,
+                    brand, and deliver items that express your brand identity while adding value to your
+                    business relationships.
                 </p>
             </div>
         </div>
 
     </section>
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

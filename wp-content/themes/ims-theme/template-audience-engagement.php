@@ -45,19 +45,19 @@ Template Name: Audience Engagement Solutions Page
             </div>
             <div class="intro-description">
                 <p>
-                    Our AI-powered event chatbot delivers seamless, real-time assistance to attendees, exhibitors, and
-                    organizers. From answering FAQs to guiding users through event schedules, booth locations, or
-                    registration,
-                    the chatbot ensures instant, round-the-clock support.<br><br>
-                    Custom-built for your event, it integrates with your website, app, or kiosks, offering multilingual
-                    support
-                    and personalized responses. This helps reduce manual inquiries, streamline communication, and
-                    improve user
-                    satisfaction across the board.<br><br>Whether you're hosting a corporate conference, trade show, or
-                    exhibition, the AI chatbot enhances engagement,
-                    improves information flow, and offers insights through user interaction analytics — making your
-                    event
-                    smarter and more efficient.
+                    At IMS, we understand that a truly successful event goes beyond attendance—it’s about
+                    involvement. Our Audience Engagement Solutions are designed to keep your audience
+                    actively participating, using a range of interactive tools such as live polling, Q&A sessions,
+                    real-time surveys, gamification, and more. These features transform passive viewers into
+                    engaged participants, creating moments that are memorable and impactful.<br><br>
+                    Beyond just interaction, our tools provide deep insights into attendee behavior and
+                    preferences, enabling organizers to adapt content in real time and optimize future
+                    strategies. Whether it’s a conference, product launch, seminar, or trade show, our
+                    engagement solutions are tailored to align with your goals and the format of your event,
+                    ensuring that every touchpoint is relevant and meaningful.<br><br>We aim to elevate the overall experience by fostering two-way communication that
+                    connects, informs, and inspires. Our solutions make your events more dynamic, more
+                    human, and more effective—helping you build stronger relationships and deliver lasting
+                    impressions through seamless and smart audience engagement.
                 </p>
             </div>
         </div>
@@ -67,15 +67,15 @@ Template Name: Audience Engagement Solutions Page
 
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

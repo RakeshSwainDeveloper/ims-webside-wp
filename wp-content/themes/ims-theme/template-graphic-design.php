@@ -40,24 +40,27 @@ Template Name: Graphic Design Page
         <div class="intro">
             <div class="intro-title">
                 <h2>
-                    <span class="highlight">Creative Designs That</span><br>
-                    Captures Attention
+                    <span class="highlight">Creative Designs</span><br>
+                    That Capture Attention
                 </h2>
             </div>
             <div class="intro-description">
                 <p>
-                    Our Graphic Design Services are crafted to visually elevate your brand and communicate your message
-                    with clarity and impact. Whether you’re launching a new product, planning an event, or building your
-                    online presence, our team delivers high-quality visual assets tailored to your business goals.
+                    At IMS, our Graphic Design Services are tailored to bring your brand to life through
+                    impactful visual storytelling. Whether you're launching a new product, promoting an event,
+                    or strengthening your online presence, we deliver designs that not only reflect your identity
+                    but also communicate your message with clarity, purpose, and creativity.
                     <br><br>
-                    From logos, brochures, banners, and exhibition graphics to social media creatives and digital ads,
-                    we design with precision, creativity, and purpose. Each element is thoughtfully created to align
-                    with your brand identity and speak directly to your target audience, ensuring consistency across all
-                    platforms.
+                    From logos and brochures to social media content, banners, and exhibition graphics, every
+                    design is crafted with precision and aligned with your goals. We ensure each piece is not
+                    only visually striking but also strategically aligned to speak directly to your audience. Our
+                    focus on brand consistency across platforms ensures a cohesive presence that enhances
+                    recognition and trust.
                     <br><br>
-                    We blend strategy with aesthetics to help you stand out in a crowded marketplace. Our designs don’t
-                    just look good — they drive results by enhancing engagement, building trust, and reinforcing brand
-                    recall. Let us transform your ideas into powerful visuals that leave a lasting impression.
+                    In a competitive marketplace, aesthetics alone are not enough. That’s why we combine
+                    strong visual appeal with strategic thinking to create designs that engage, inform, and
+                    convert. Whether you're aiming to increase awareness, boost interaction, or reinforce your
+                    message, IMS transforms ideas into powerful visual assets that leave a lasting impression.
                 </p>
             </div>
         </div>
@@ -65,15 +68,15 @@ Template Name: Graphic Design Page
     </section>
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+        <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 

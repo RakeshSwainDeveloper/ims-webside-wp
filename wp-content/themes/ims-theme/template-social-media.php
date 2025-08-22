@@ -29,14 +29,14 @@ Template Name: Social Media Page
         </div>
     </section>
 
-     <div class="section-heading">
-            <span class="dot"></span>
-            <span class="label">Social media marketing services</span>
-        </div>
-        <hr />
+    <div class="section-heading">
+        <span class="dot"></span>
+        <span class="label">Social media marketing services</span>
+    </div>
+    <hr />
     <!-- Content Section -->
     <section class="service-content">
-    
+
         <div class="intro">
             <div class="intro-title">
                 <h2>
@@ -46,30 +46,34 @@ Template Name: Social Media Page
             </div>
             <div class="intro-description">
                 <p>
-                    Our Social Media Marketing Services help brands connect with their audience, build community,
-                    and grow their online presence. We create tailored strategies for platforms like Instagram,
-                    Facebook, LinkedIn, and X (Twitter) to increase reach and engagement.<br><br>
-                    From compelling content creation and calendar planning to ad campaigns and performance tracking,
-                    we manage every aspect to ensure your brand remains consistent, relevant, and engaging. Our
-                    approach combines creativity with data-driven insights for maximum impact.<br><br> Whether you're
-                    launching a product, promoting an event, or building long-term visibility, our
-                    social media experts help you build genuine relationships with your audience and drive
-                    measurable results that support your business goals.
+                    At IMS, our Social Media Marketing Services are designed to help brands grow their digital
+                    presence, connect authentically with their audience, and build lasting communities. We
+                    craft tailored strategies for platforms like Instagram, Facebook, LinkedIn, and TikTok,
+                    aiming to boost reach and engagement while keeping your brand voice consistent and
+                    impactful across every channel.<br><br>
+                    Our team blends creative content development with data-driven campaign execution,
+                    ensuring your message stays relevant and results-focused. From editorial calendars to
+                    performance tracking, we work closely with you to maintain momentum and adapt
+                    strategies in real time based on analytics and audience behaviour. Every post, promotion, or
+                    paid campaign is part of a cohesive plan to move your brand forward.<br><br> Whether you're launching a new product, promoting an event, or focusing on long-term
+                    brand loyalty, IMS provides the expertise to turn social media into a powerful business tool.
+                    We focus on building meaningful relationships between your brand and your audience—
+                    driving visibility, engagement, and measurable growth that aligns with your goals.
                 </p>
             </div>
         </div>
     </section>
 
     <section class="cta">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.jpg" alt="Vision" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/vision.png" alt="Vision" />
         <h2>
             <span class="red-text">Ready to Bring Your Vision to Life?</span><br />
             <span class="black-text">Let’s Talk!</span>
         </h2>
-        <button class="enquire-btn">
+       <a href="<?php echo site_url('/contact'); ?>" class="enquire-btn" style="text-decoration: none;">
             Enquire Now
             <span class="icon-arrow">➔</span>
-        </button>
+        </a>
     </section>
 
 
