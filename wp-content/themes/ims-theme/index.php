@@ -131,7 +131,7 @@
 
     <div class="event-cards">
       <div class="event-card">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/index1.jpg" alt="TechX 2024 – Product Launch Pavilion" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/manstepping.png" alt="TechX 2024 – Product Launch Pavilion" />
         <h3>TechX 2024 – Product Launch Pavilion</h3>
         <a href="/events">View More ↗</a>
       </div>
